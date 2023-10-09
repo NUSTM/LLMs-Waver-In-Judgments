@@ -47,7 +47,7 @@ To evaluate this consistency of large language models, we design a **FOLLOW-UP Q
 We employ two metrics to assess the judgement consistency of LLMs after the execution of the mechanism.
 - **Modification (M.)** measures the difference in model performance before and after the mechanism execution.
 - **Modification Rate (M. Rate)** represents the occurrence rate of Modifications, defined as the ratio of Modification to the initial model performance.
-<div align=center> <img alt="metrics" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/74127111-4ad6-4890-aab7-807bfd4d6e2f" width="66%" height="26%"></div>
+<div align=center> <img alt="metrics" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/74127111-4ad6-4890-aab7-807bfd4d6e2f" width="66%" height="23%"></div>
 
 
 
