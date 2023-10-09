@@ -84,7 +84,7 @@ We employ two metrics to assess the judgement consistency of LLMs after the exec
 ## Mitigation Method Exploration
 
 
-## Case Study
+## Examples
 
 
 ## Citation
