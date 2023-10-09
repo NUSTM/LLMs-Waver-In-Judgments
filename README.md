@@ -36,7 +36,7 @@
 📊 Additionally, we study these models’ judgement consistency under various settings (sampling temperature and prompts) to validate this issue further, observing the impact of prompt tone and conducting an in-depth error analysis for deeper behavioral insights. Furthermore, we also explore several prompting methods to mitigate this issue and demonstrate their effectiveness.
 
 
-**NOTE**: We define judgement consistency as the consistency of the model’s final answers when handling objective questions with definitive answers.
+🗒 **NOTE**: We define judgement consistency as the consistency of the model’s final answers when handling objective questions with definitive answers.
 
 
 ## FOLLOW-UP QUESTIONING MECHANISM
