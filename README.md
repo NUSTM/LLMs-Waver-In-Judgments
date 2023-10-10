@@ -19,7 +19,7 @@
     - [The Impact of Sampling Temperature 🌡️](#the-impact-of-sampling-temperature)
     - [The Impact of Different Prompts 🎨](#the-impact-of-different-prompts)
     - [Error Analysis 🔍](#error-analysis)
-    - [Can the Mechanism Correct Models?](can-the-mechanism-correct-models)
+    - [Can the Mechanism Correct Models❓](can-the-mechanism-correct-models)
   - [Mitigation Method Exploration](mitigation-method-exploration)
   - [Examples](#examples)
   - [Any Question?](#any-questions)
