@@ -133,12 +133,12 @@ Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large lan
 <div align=center> <img alt="chatgpt-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/070d8944-58b3-483a-8cdb-9e3ab99d7cfd" width="66%" height="33%"></div>
 
 - Bard
-<div align=center> <img alt="bard-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/7b52eb89-fe6e-4d92-99a6-a290122d4478" width="66%" height="33%"></div>
+<div align=center> <img alt="bard-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f1a6fa13-9061-4e7d-a147-9d368f5b6126" width="66%" height="33%"></div>
 
 <div align=center> <img alt="bard-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/ea0522e4-fd4b-411f-a659-0bfa7b073d5d" width="66%" height="33%"></div>
 
 - Vicuna-13b
-<div align=center> <img alt="vicuna13b-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f20b00dc-444d-441b-9d2c-e09ca37e0840" width="66%" height="33%"></div>
+<div align=center> <img alt="vicuna13b-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/99e024f5-eba4-4d95-8d81-7234eccf95cd" width="66%" height="33%"></div>
 
 <div align=center> <img alt="vicuna13b-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/568f3f0d-326b-4457-a83d-76e264913c95" width="66%" height="33%"></div>
 
