@@ -123,6 +123,10 @@ We find a common pattern in these errors, where the initial response typically b
 
 
 ### Can the Mechanism Correct Models❓
+Students may gradually arrive at the correct answer under the teacher’s follow-up questioning. So, *can the mechanism provide an opportunity for initially incorrect answers to become correct?* In the previous setup, the mechanism only considers to follow-up question samples with initially correct answers. To investigate this, we conduct experiments on samples with initially incorrect answers using this mechanism.
+<div align=center> <img alt="results-error-to-right" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f9667ce4-f49f-4253-bbda-a06b7b0bd6ca" width="66%" height="20%"></div>
+
+
 
 
 ## Mitigation Method Exploration
