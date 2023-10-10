@@ -65,15 +65,15 @@ We employ two metrics to assess the judgement consistency of LLMs after the exec
   - Knowledge Reasoning: MMLU.
 
 ### Results Analysis
-\vartriangleright The results of ChatGPT in Direct Form.
-<div align=center> <img alt="results-chatgpt-d" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5587274f-02a2-43d8-a885-0c354125b97c" width="66%" height="33%"></div>
+▶️ The results of ChatGPT in Direct Form.
+<div align=center> <img alt="results-chatgpt-d" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/86f27167-8220-4c3c-ace5-5e11ab1b6415" width="66%" height="33%"></div>
 
 
-\blacktriangleright The results of ChatGPT in Progressive Form.
+▶️ The results of ChatGPT in Progressive Form.
 <div align=center> <img alt="results-chatgpt-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/85dc1ddb-d970-4a7d-b878-7726947f720c" width="66%" height="26%"></div>
 
 
-The results of the mechanism in Direct Form (Left) and Progressive Form (Right) on PaLM2-Bison and Vicuna-13B. \downarrow implies a decline in accuracy after the mechanism execution. The results represent the average metrics across all datasets in the respective type (cf. Benchmarks). Bold denotes the poorest judgement consistency. 
+▶️ The results of the mechanism in Direct Form (Left) and Progressive Form (Right) on PaLM2-Bison and Vicuna-13B. \downarrow implies a decline in accuracy after the mechanism execution. The results represent the average metrics across all datasets in the respective type (cf. Benchmarks). Bold denotes the poorest judgement consistency. 
 <div align=center> <img alt="results-palm-vicuna-d-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/94f635d7-f66b-45c3-838c-f7293570639c" width="66%" height="26%"></div>
 
 
