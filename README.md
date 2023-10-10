@@ -45,7 +45,7 @@ To evaluate this consistency of large language models, we design a **FOLLOW-UP Q
 
 
 The prompts we used in the experiment. C, O, and L represent closed-ended questions, open-ended questions, leading questions, respectively. {M_A} denotes the misleading answers.
-<div align=center> <img alt="prompts-a" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/b6e317e5-32a7-461f-bc6c-ff061cf0c4e1" width="44%" height="12%"></div>
+<div align=center> <img alt="prompts-a" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/b6e317e5-32a7-461f-bc6c-ff061cf0c4e1" width="33%" height="9%"></div>
 
 
 We employ two metrics to assess the judgement consistency of LLMs after the execution of the mechanism.
