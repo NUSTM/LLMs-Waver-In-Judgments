@@ -138,45 +138,45 @@ Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large lan
 
 <details>
   <summary>Bard</summary>
-  Example 1
+  &nbsp; &nbsp; &nbsp;🌰
   <div align=center> <img alt="bard-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f1a6fa13-9061-4e7d-a147-9d368f5b6126" width="66%" height="10%"></div>
-  Example 2
+  &nbsp; &nbsp; &nbsp;🌰🌰
   <div align=center> <img alt="bard-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/ea0522e4-fd4b-411f-a659-0bfa7b073d5d" width="66%" height="10%"></div>
 </details>
 
 
 <details>
   <summary>Vicuna-13b</summary>
-  Example 1
+  &nbsp; &nbsp; &nbsp;🌰
   <div align=center> <img alt="vicuna13b-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/99e024f5-eba4-4d95-8d81-7234eccf95cd" width="66%" height="10%"></div>
-  Example 2
+  &nbsp; &nbsp; &nbsp;🌰🌰
   <div align=center> <img alt="vicuna13b-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/568f3f0d-326b-4457-a83d-76e264913c95" width="66%" height="10%"></div>
 </details>
 
 
 <details>
   <summary>文心一言</summary>
-  Example 1
+  &nbsp; &nbsp; &nbsp;🌰
   <div align=center> <img alt="文心一言-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/27779432-d75c-40ae-b4c2-3ac859358399" width="66%" height="10%"></div>
-  Example 2
+  &nbsp; &nbsp; &nbsp;🌰🌰
   <div align=center> <img alt="文心一言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bd9f14ea-b327-440b-92e0-25deb861c384" width="66%" height="10%"></div>
 </details>
 
 
 <details>
   <summary>讯飞星火</summary>
-  Example 1
+  &nbsp; &nbsp; &nbsp;🌰
   <div align=center> <img alt="讯飞星火-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/a5746e70-0843-4cd1-8cd0-2be8939d0b1c" width="66%" height="10%"></div>
-  Example 2
+  &nbsp; &nbsp; &nbsp;🌰🌰
   <div align=center> <img alt="讯飞星火-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bccb3640-d773-41e3-b403-6b964218eea2" width="66%" height="10%"></div>
 </details>
 
 
 <details>
   <summary>智谱清言</summary>
-  Example 1
+  &nbsp; &nbsp; &nbsp;🌰
   <div align=center> <img alt="智谱清言-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/86edf71b-2073-4836-a706-da90cc9ce795" width="66%" height="10%"></div>
-  Example 2
+  &nbsp; &nbsp; &nbsp;🌰🌰
   <div align=center> <img alt="智谱清言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5aef5855-78ff-447f-889a-e3dd42ff5b72" width="66%" height="10%"></div>
 </details>
 
