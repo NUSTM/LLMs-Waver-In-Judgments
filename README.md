@@ -41,7 +41,7 @@
 
 ## FOLLOW-UP QUESTIONING MECHANISM
 To evaluate this consistency of large language models, we design a **FOLLOW-UP QUESTIONING MECHANISM**. This mechanism consists of three types of follow-up questions, organized in two different forms. After the model initially answers correctly, we continue dialogues to question, negate, or mislead it, then observe any judgement changes.
-<div align=center> <img alt="method" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/88aee09f-b552-40b2-89f4-759ece0dfb28" width="66%" height="36%"></div>
+<div align=center> <img alt="method" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/88aee09f-b552-40b2-89f4-759ece0dfb28" width="72%" height="40%"></div>
 
 The prompts we used in the experiment. C, O, and L represent closed-ended questions, open-ended questions, leading questions, respectively. {M_A} denotes the misleading answers.
 <div align=center> <img alt="prompts-a" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/b6e317e5-32a7-461f-bc6c-ff061cf0c4e1" width="45%" height="9%"></div>
