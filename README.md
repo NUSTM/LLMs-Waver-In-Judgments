@@ -129,9 +129,9 @@ Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large lan
 
 <details>
   <summary>ChatGPT</summary>
-  🌰
+   &nbsp; &nbsp; &nbsp;🌰
   <div align=center> <img alt="chatgpt-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/aa07ab8f-b613-46c0-831a-23be6d5e9676" width="66%" height="10%"></div>
-  🌰🌰
+   &nbsp; &nbsp; &nbsp;🌰🌰
   <div align=center> <img alt="chatgpt-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/070d8944-58b3-483a-8cdb-9e3ab99d7cfd" width="66%" height="10%"></div>
 </details>
 
