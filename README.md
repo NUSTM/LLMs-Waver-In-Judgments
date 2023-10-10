@@ -90,7 +90,7 @@ The results of the mechanism in Direct Form (Left) and Progressive Form (Right) 
 Intuitively, the lower the sampling temperature, the more deterministic the generated outputs, whereas higher temperature lead to more diverse outputs. Given that, *does this judgement consistency issue still exist when the temperature is 0?* 
 
 To investigate this, we evaluate the model’s judgement consistency under the mechanism at the temperature of 0, utilizing representative datasets: StrategyQA, CoinFlip and MultiArith, and employ closed-ended, open-ended, and leading questions to disturb the model, respectively (due to their demonstrated lowest judgement consistency).
-<div align=center> <img alt="results-temperature" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/886e1ea0-fc4f-4262-8fa5-15bb6deb6c29" width="64%" height="33%"></div>
+<div align=center> <img alt="results-temperature" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/886e1ea0-fc4f-4262-8fa5-15bb6deb6c29" width="66%" height="33%"></div>
 
 🗒 **NOTE**: Before denotes initial accuracy before applying the mechanism. Bold denotes the poorest judgement consistency.
 
@@ -102,7 +102,7 @@ To investigate this, we evaluate the model’s judgement consistency under the m
 
 
 The impact of different prompts on Modification (Direct Form).
-<div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/19b4133f-c7d1-450b-b172-95d9501d39b7" width="64%" height="40%"></div>
+<div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/19b4133f-c7d1-450b-b172-95d9501d39b7" width="66%" height="36%"></div>
 
 
 
@@ -110,11 +110,15 @@ The impact of different prompts on Modification (Direct Form).
 Using ChatGPT’s judgement consistency as the reference, we analyze error examples in StrategyQA, CoinFlip, and MultiArith, employing closed-ended, open-ended and leading questions to mislead the model. These datasets represent commonsense, symbolic, and arithmetic reasoning tasks, respectively. Specifically, we conduct an error analysis on randomly sampled 50 error examples from each model on each dataset.
 
 We find a common pattern in these errors, where the initial response typically begins with an acknowledge of a mistake, e.g., “*I apologize for my mistake.*”. Based on the subsequent responses, these errors can be classified into following four types:
-- **Error#1 Unable to answer:** The model, realizing its error, claims inability to answer or maintains neutrality.
-- **Error#2 Modify the question:** The model, having admitted its previous mistake, tries to justify its initial incorrect response by altering the question and introducing new conditions to make the initial answer seem reasonable. 
-- **Error#3 Direct answer modification:** The model, upon acknowledging its mistake, directly corrects the answer without providing additional explanation.
-- **Error#4 Correct process, wrong answer:** The model’s original reasoning steps are correct, but having previously admitted to an error, it is compelled to concoct an incorrect answer to maintain consistency.
-<div align=center> <img alt="results-error-analysis" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/3bfc1165-0e3c-4ef7-8b94-fb517964d6a8" width="64%" height="40%"></div>
+- **Error#1 Unable to answer**
+  - The model, realizing its error, claims inability to answer or maintains neutrality.
+- **Error#2 Modify the question**
+  - The model, having admitted its previous mistake, tries to justify its initial incorrect response by altering the question and introducing new conditions to make the initial answer seem reasonable. 
+- **Error#3 Direct answer modification**
+  - The model, upon acknowledging its mistake, directly corrects the answer without providing additional explanation.
+- **Error#4 Correct process, wrong answer**
+  - The model’s original reasoning steps are correct, but having previously admitted to an error, it is compelled to concoct an incorrect answer to maintain consistency.
+<div align=center> <img alt="results-error-analysis" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/3bfc1165-0e3c-4ef7-8b94-fb517964d6a8" width="66%" height="33%"></div>
 
 
 
