@@ -104,7 +104,7 @@ To investigate this, we evaluate the model’s judgement consistency under the m
 <div align=center> <img width="780" alt="prompts-all" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c02bf33b-558a-4949-a791-793ffa7dd771" width="56%" height="12%"></div>
 
 The impact of different prompts on Modification (Direct Form).
-<div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/19b4133f-c7d1-450b-b172-95d9501d39b7" width="44%" height="15%"></div>
+<div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/19b4133f-c7d1-450b-b172-95d9501d39b7" width="56%" height="15%"></div>
 
 
 ### Error Analysis
