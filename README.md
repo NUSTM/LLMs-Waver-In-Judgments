@@ -19,7 +19,7 @@
     - [The Impact of Sampling Temperature 🌡️](#the-impact-of-sampling-temperature)
     - [The Impact of Different Prompts 🎨](#the-impact-of-different-propmts)
     - [Error Analysis 🔍](#error-analysis)
-    - [Can the Mechanism Correct Models ❓](can-the-mechanism-correct-models)
+    - [Can the Mechanism Correct Models❓](can-the-mechanism-correct-models?)
   - [Mitigation Method Exploration](mitigation-method-exploration)
   - [Case Study](#case-study)
   - [Any Question?](#any-questions)
@@ -86,8 +86,8 @@ The results of the mechanism in Direct Form (Left) and Progressive Form (Right) 
 ## Further Studies
 
 
-### The Impact of Sampling Temperature 🌡️
-Intuitively, the lower the sampling temperature, the more deterministic the generated outputs, whereas higher temperature lead to more diverse outputs. Given that, *does this judgement consistency issue still exist when the temperature is 0?* 
+### The Impact of Sampling Temperature
+🌡️ Intuitively, the lower the sampling temperature, the more deterministic the generated outputs, whereas higher temperature lead to more diverse outputs. Given that, *does this judgement consistency issue still exist when the temperature is 0?* 
 
 To investigate this, we evaluate the model’s judgement consistency under the mechanism at the temperature of 0, utilizing representative datasets: StrategyQA, CoinFlip and MultiArith, and employ closed-ended, open-ended, and leading questions to disturb the model, respectively (due to their demonstrated lowest judgement consistency).
 <div align=center> <img alt="results-temperature" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/886e1ea0-fc4f-4262-8fa5-15bb6deb6c29" width="66%" height="33%"></div>
@@ -96,8 +96,8 @@ To investigate this, we evaluate the model’s judgement consistency under the m
 
 
 
-### The Impact of Different Prompts 🎨
-*Do the models waver in their judgements under other prompts as well?* To investigate this, we employ prompts written by annotators A, B, and C across these models.
+### The Impact of Different Prompts
+🎨 *Do the models waver in their judgements under other prompts as well?* To investigate this, we employ prompts written by annotators A, B, and C across these models.
 <div align=center> <img width="780" alt="prompts-all" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c02bf33b-558a-4949-a791-793ffa7dd771" width="56%" height="26%"></div>
 
 
@@ -106,8 +106,8 @@ The impact of different prompts on Modification (Direct Form).
 
 
 
-### Error Analysis 🔍
-Using ChatGPT’s judgement consistency as the reference, we analyze error examples in StrategyQA, CoinFlip, and MultiArith, employing closed-ended, open-ended and leading questions to mislead the model. These datasets represent commonsense, symbolic, and arithmetic reasoning tasks, respectively. Specifically, we conduct an error analysis on randomly sampled 50 error examples from each model on each dataset.
+### Error Analysis
+🔍 Using ChatGPT’s judgement consistency as the reference, we analyze error examples in StrategyQA, CoinFlip, and MultiArith, employing closed-ended, open-ended and leading questions to mislead the model. These datasets represent commonsense, symbolic, and arithmetic reasoning tasks, respectively. Specifically, we conduct an error analysis on randomly sampled 50 error examples from each model on each dataset.
 
 We find a common pattern in these errors, where the initial response typically begins with an acknowledge of a mistake, e.g., “*I apologize for my mistake.*”. Based on the subsequent responses, these errors can be classified into following four types:
 - **Error#1 Unable to answer**
@@ -122,8 +122,8 @@ We find a common pattern in these errors, where the initial response typically b
 
 
 
-### Can the Mechanism Correct Models❓
-Students may gradually arrive at the correct answer under the teacher’s follow-up questioning. So, *can the mechanism provide an opportunity for initially incorrect answers to become correct?* In the previous setup, the mechanism only considers to follow-up question samples with initially correct answers. To investigate this, we conduct experiments on samples with initially incorrect answers using this mechanism.
+### Can the Mechanism Correct Models?
+🧐 Students may gradually arrive at the correct answer under the teacher’s follow-up questioning. So, *can the mechanism provide an opportunity for initially incorrect answers to become correct?* In the previous setup, the mechanism only considers to follow-up question samples with initially correct answers. To investigate this, we conduct experiments on samples with initially incorrect answers using this mechanism.
 <div align=center> <img alt="results-error-to-right" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f9667ce4-f49f-4253-bbda-a06b7b0bd6ca" width="66%" height="20%"></div>
 
 
