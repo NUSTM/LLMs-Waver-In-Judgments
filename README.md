@@ -21,14 +21,14 @@
     - [Error Analysis 🔍](#error-analysis)
     - [Can the Mechanism Correct Models❓](#can-the-mechanism-correct-models)
   - [Mitigation Method Exploration](#mitigation-method-exploration)
-  - [Examples](#examples)
+  - [Examples 🌰](#examples)
   - [Any Question?](#any-questions)
   - [Citation](#citation)
 
 
 
 ## Overview
-❗️ With the emergence of generative conversational large language models (LLMs) like ChatGPT, serving as virtual assistants in various fields, the stability and reliability of their responses have become crucial. **However, during usage, it has been observed that these models tend to waver in their judgements when confronted with follow-up questions from users expressing skepticism or disagreement.**
+❗️ With the emergence of generative conversational large language models (LLMs) like ChatGPT, serving as virtual assistants in various fields, the stability and reliability of their responses have become crucial. **However, during usage, it has been observed that these models tend to waver in their judgements when confronted with follow-up questions from users expressing skepticism or disagreement.** [🌰 Like these examples](#examples)
 
 🪛 In this work, we draw inspiration from questioning strategies in education and propose a **FOLLOW-UP QUESTIONING MECHANISM** along with two evaluation metrics to assess the judgement consistency of LLMs before and after exposure to disturbances. We evaluate the judgement consistency of ChatGPT, PaLM2-Bison, and Vicuna-13B under this mechanism across eight reasoning benchmarks. Empirical results show that even when the initial answers are correct, judgement consistency sharply decreases when LLMs face disturbances such as questioning, negation, or misleading. 
 
@@ -125,7 +125,33 @@ xxx
 
 
 ## Examples
-xxx
+Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large language models.
+
+- ChatGPT
+<div align=center> <img alt="chatgpt-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/aa07ab8f-b613-46c0-831a-23be6d5e9676" width="66%" height="33%"></div>
+<div align=center> <img alt="chatgpt-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/070d8944-58b3-483a-8cdb-9e3ab99d7cfd" width="66%" height="33%"></div>
+
+- Bard
+<div align=center> <img alt="bard-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/7b52eb89-fe6e-4d92-99a6-a290122d4478" width="66%" height="33%"></div>
+<div align=center> <img alt="bard-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/ea0522e4-fd4b-411f-a659-0bfa7b073d5d" width="66%" height="33%"></div>
+
+- Vicuna-13b
+<div align=center> <img alt="vicuna13b-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f20b00dc-444d-441b-9d2c-e09ca37e0840" width="66%" height="33%"></div>
+<div align=center> <img alt="vicuna13b-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/568f3f0d-326b-4457-a83d-76e264913c95" width="66%" height="33%"></div>
+
+- 文心一言
+<div align=center> <img alt="文心一言-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/27779432-d75c-40ae-b4c2-3ac859358399" width="66%" height="33%"></div>
+<div align=center> <img alt="文心一言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bd9f14ea-b327-440b-92e0-25deb861c384" width="66%" height="33%"></div>
+
+- 讯飞星火
+<div align=center> <img alt="讯飞星火-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/a5746e70-0843-4cd1-8cd0-2be8939d0b1c" width="66%" height="33%"></div>
+<div align=center> <img alt="讯飞星火-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bccb3640-d773-41e3-b403-6b964218eea2" width="66%" height="33%"></div>
+
+- 智谱清言
+<div align=center> <img alt="智谱清言-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/86edf71b-2073-4836-a706-da90cc9ce795" width="66%" height="33%"></div>
+<div align=center> <img alt="智谱清言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5aef5855-78ff-447f-889a-e3dd42ff5b72" width="66%" height="33%"></div>
+
+[⬆️ Back to overview](#overview)
 
 
 ## Citation
