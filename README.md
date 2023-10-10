@@ -129,7 +129,7 @@ Students may gradually arrive at the correct answer under the teacher’s follow
 
 
 ## Mitigation Method Exploration
-xxx
+
 
 
 ## Examples
@@ -165,9 +165,9 @@ Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large lan
 <details>
   <summary>文心一言</summary>
   &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="文心一言-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/27779432-d75c-40ae-b4c2-3ac859358399" width="44%" height="10%"></div>
+  <div align=center> <img alt="文心一言-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/27779432-d75c-40ae-b4c2-3ac859358399" width="55%" height="10%"></div>
   &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="文心一言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bd9f14ea-b327-440b-92e0-25deb861c384" width="44%" height="10%"></div>
+  <div align=center> <img alt="文心一言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bd9f14ea-b327-440b-92e0-25deb861c384" width="55%" height="10%"></div>
 </details>
 
 
