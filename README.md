@@ -101,7 +101,7 @@ To investigate this, we evaluate the model’s judgement consistency under the m
 
 ### The Impact of Different Prompts
 *Do the models waver in their judgements under other prompts as well?* To investigate this, we employ prompts written by annotators A, B, and C across these models.
-<div align=center> <img width="780" alt="prompts-all" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c02bf33b-558a-4949-a791-793ffa7dd771" width="44%" height="26%"></div>
+<div align=center> <img width="780" alt="prompts-all" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c02bf33b-558a-4949-a791-793ffa7dd771" width="44%" height="10%"></div>
 
 The impact of different prompts on Modification (Direct Form).
 <div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/19b4133f-c7d1-450b-b172-95d9501d39b7" width="66%" height="36%"></div>
