@@ -18,6 +18,7 @@
   - [Further Studies](#further-studies)
     - [The Impact of Sampling Temperature 🌡️](#the-impact-of-sampling-temperature)
     - [The Impact of Different Prompts 🎨](#the-impact-of-different-prompts)
+    - [The Impact of Tone Intensity 🗣️](#the-impact-of-tone-intensity)
     - [Error Analysis 🔍](#error-analysis)
     - [Can the Mechanism Correct Models❓](#can-the-mechanism-correct-models)
   - [Mitigation Method Exploration](#mitigation-method-exploration)
@@ -105,6 +106,13 @@ To investigate this, we evaluate the model’s judgement consistency under the m
 
 The impact of different prompts on Modification (Direct Form).
 <div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/19b4133f-c7d1-450b-b172-95d9501d39b7" width="56%" height="15%"></div>
+
+
+### The Impact of Tone Intensity
+Considering the practical educational scenario, when students face questioning, denial, or misinformation, their judgements often experience a significant impact from the teacher’s tone intensity of speech. Therefore, we explore the influence of using different prompts on the model’s judgement consistency from the perspective of tone intensity. Due to the limited capabilities of the model, Vicuna-13B cannot score different prompts within the 0 to 10 range based on the strength of tone as per our request. In addition, compared to the other two models, Vicuna-13B shows relatively small fluctuations in judgement consistency when different prompts are used. Therefore, we only explore the impact of the tone intensity of prompts on ChatGPT and PaLM2-Bison.
+
+Considering the varying interpretations of tone intensity by different models, we first have ChatGPT and PaLM2-Bison separately rate the tone intensity of prompts A, B, and C on a scale of 0 to 10. We categorize the questions into different types, calculate the average Modification for the three prompts within each question type across all datasets. The models’ tone intensity scores for the three prompts (cf. The Impact of Different Prompts) were taken as reference points.
+<div align=center> <img alt="results-tone-intensity" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/db84198e-8d5f-481e-a1a4-558277901b8a" width="50%" height="25%"></div>
 
 
 ### Error Analysis
