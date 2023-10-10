@@ -60,10 +60,18 @@ We employ two metrics to assess the judgement consistency of LLMs after the exec
   - PaLM2-Bison (chat-bison-001) with temperature at 0.4.
   - Vicuna-13b (Vicuna-13B-v1.3) with temperature at 0.7.
 - Benchmarks
-  - Arithmetic Reasoning: GSM8K, SVAMP, MultiArith.
-  - Commonsense Reasoning: CSQA, StrategyQA.
-  - Symbolic Reasoning: Last Letter Concatenation, Coin Flip.
-  - Knowledge Reasoning: MMLU.
+  - Arithmetic Reasoning
+    - GSM8K
+    - SVAMP
+    - MultiArith
+  - Commonsense Reasoning
+    - CSQA
+    - StrategyQA
+  - Symbolic Reasoning
+    - Last Letter Concatenation
+    - Coin Flip
+  - Knowledge Reasoning
+    - MMLU
 
 
 ### Results
