@@ -127,6 +127,10 @@ xxx
 ## Examples
 Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large language models.
 
+<details>
+  <summary>aaa</summary>
+  bbb
+</details>
 - ChatGPT
 <div align=center> <img alt="chatgpt-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/aa07ab8f-b613-46c0-831a-23be6d5e9676" width="66%" height="33%"></div>
 
