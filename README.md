@@ -143,7 +143,7 @@ Essentially, we believe that this issue originates from the misalignment between
   - EmotionPrompt: *This is very important to my career.*
 - **Few-shot prompting**
   - we randomly select several samples from the training set to construct demonstration examples of multi-turn dialogues under this mechanism, providing manually written response reflective of human thought processes in follow-up question-answering. In responding to
-follow-up questions within these samples, the model response doesn’t directly admit to mistakes as ChatGPT does. Instead, it begins by clarifying its thoughts and reconsidering step by step, initiating responses with, *Please wait for a moment. In order to answer your question, I need to take a moment to reconsider. I will now clear my mind of distractions and approach this step by step.*
+follow-up questions within these samples, the model response doesn’t directly admit to mistakes as ChatGPT does. Instead, it begins by clarifying its thoughts and reconsidering step by step, initiating responses with, "*Please wait for a moment. In order to answer your question, I need to take a moment to reconsider. I will now clear my mind of distractions and approach this step by step.*"
 <div align=center> <img alt="results-mitigation-method" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c1435e42-09a6-4626-b53f-94d435e6b9bf" width="66%" height="20%"></div>
 
 
