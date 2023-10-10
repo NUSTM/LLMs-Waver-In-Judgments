@@ -118,7 +118,7 @@ We find a common pattern in these errors, where the initial response typically b
   - The model, upon acknowledging its mistake, directly corrects the answer without providing additional explanation.
 - **Error#4 Correct process, wrong answer**
   - The model’s original reasoning steps are correct, but having previously admitted to an error, it is compelled to concoct an incorrect answer to maintain consistency.
-<div align=center> <img alt="results-error-analysis" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/3bfc1165-0e3c-4ef7-8b94-fb517964d6a8" width="66%" height="23%"></div>
+<div align=center> <img alt="results-error-analysis" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/3bfc1165-0e3c-4ef7-8b94-fb517964d6a8" width="66%" height="20%"></div>
 
 
 
