@@ -69,15 +69,15 @@ We employ two metrics to assess the judgement consistency of LLMs after the exec
   - Knowledge Reasoning: MMLU.
 
 ### Results Analysis
-▶️ The results of ChatGPT in Direct Form.
+The results of ChatGPT in Direct Form.
 <div align=center> <img alt="results-chatgpt-d" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/86f27167-8220-4c3c-ace5-5e11ab1b6415" width="66%" height="33%"></div>
 
 
-▶️ The results of ChatGPT in Progressive Form.
+The results of ChatGPT in Progressive Form.
 <div align=center> <img alt="results-chatgpt-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/85dc1ddb-d970-4a7d-b878-7726947f720c" width="66%" height="26%"></div>
 
 
-▶️ The results of the mechanism in Direct Form (Left) and Progressive Form (Right) on PaLM2-Bison and Vicuna-13B.
+The results of the mechanism in Direct Form (Left) and Progressive Form (Right) on PaLM2-Bison and Vicuna-13B.
 <div align=center> <img alt="results-palm-vicuna-d-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/94f635d7-f66b-45c3-838c-f7293570639c" width="66%" height="26%"></div>
 
 🗒 **NOTE**: ↓ implies a decline in accuracy after the mechanism execution. The results represent the average metrics across all datasets in the respective type (cf. Benchmarks). Bold denotes the poorest judgement consistency. 
@@ -107,6 +107,15 @@ The impact of different prompts on Modification (Direct Form).
 
 
 ### Error Analysis 🔍
+Using ChatGPT’s judgement consistency as the reference, we analyze error examples in StrategyQA, CoinFlip, and MultiArith, employing closed-ended, open-ended and leading questions to mislead the model. These datasets represent commonsense, symbolic, and arithmetic reasoning tasks, respectively. Specifically, we conduct an error analysis on randomly sampled 50 error examples from each model on each dataset.
+
+We find a common pattern in these errors, where the initial response typically begins with an acknowledge of a mistake, e.g., “*I apologize for my mistake.*”. Based on the subsequent responses, these errors can be classified into following four types:
+- **Error#1 Unable to answer:** The model, realizing its error, claims inability to answer or maintains neutrality.
+- **Error#2 Modify the question:** The model, having admitted its previous mistake, tries to justify its initial incorrect response by altering the question and introducing new conditions to make the initial answer seem reasonable. 
+- **Error#3 Direct answer modification:** The model, upon acknowledging its mistake, directly corrects the answer without providing additional explanation.
+- **Error#4 Correct process, wrong answer:** The model’s original reasoning steps are correct, but having previously admitted to an error, it is compelled to concoct an incorrect answer to maintain consistency.
+<div align=center> <img alt="results-error-analysis" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/3bfc1165-0e3c-4ef7-8b94-fb517964d6a8" width="64%" height="40%"></div>
+
 
 
 ### Can the Mechanism Correct Models❓
