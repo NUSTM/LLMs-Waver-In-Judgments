@@ -177,10 +177,10 @@ Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large lan
 <details>
   <summary>Vicuna-13b</summary>
   &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="vicuna13b-math" rc="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f383d51a-4643-4872-8738-4bc92e6e5d46" width="55%" height="10%"></div>
- 
+  <div align=center> <img alt="vicuna13b-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f383d51a-4643-4872-8738-4bc92e6e5d46" width="55%" height="10%"></div>
+
   &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="vicuna13b-csqa" rc="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/0ac1e9ba-b585-46a9-972d-0fb732e2e109" width="55%" height="10%"></div>
+  <div align=center> <img alt="vicuna13b-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/0ac1e9ba-b585-46a9-972d-0fb732e2e109" width="55%" height="10%"></div>
 
 </details>
 
