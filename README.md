@@ -112,7 +112,7 @@ The impact of different prompts on Modification (Direct Form).
 Considering the practical educational scenario, when students face questioning, denial, or misinformation, their judgements often experience a significant impact from the teacher’s tone intensity of speech. Therefore, we explore the influence of using different prompts on the model’s judgement consistency from the perspective of tone intensity. Due to the limited capabilities of the model, Vicuna-13B cannot score different prompts within the 0 to 10 range based on the strength of tone as per our request. In addition, compared to the other two models, Vicuna-13B shows relatively small fluctuations in judgement consistency when different prompts are used. Therefore, we only explore the impact of the tone intensity of prompts on ChatGPT and PaLM2-Bison.
 
 Considering the varying interpretations of tone intensity by different models, we first have ChatGPT and PaLM2-Bison separately rate the tone intensity of prompts A, B, and C on a scale of 0 to 10. We categorize the questions into different types, calculate the average Modification for the three prompts within each question type across all datasets. The models’ tone intensity scores for the three prompts (cf. The Impact of Different Prompts) were taken as reference points.
-<div align=center> <img alt="results-tone-intensity" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/6bc32e8b-8350-41a7-98ff-dc878a3fb6d6" width="25%" height="25%"> </div>
+<div align=center> <img alt="results-tone-intensity" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/6bc32e8b-8350-41a7-98ff-dc878a3fb6d6" width="35%" height="35%"> </div>
 
 
 ### Error Analysis
