@@ -133,7 +133,7 @@ We find a common pattern in these errors, where the initial response typically b
 
 ### Can the Mechanism Correct Models?
 Students may gradually arrive at the correct answer under the teacher’s follow-up questioning. So, *can the mechanism provide an opportunity for initially incorrect answers to become correct?* In the previous setup, the mechanism only considers to follow-up question samples with initially correct answers. To investigate this, we conduct experiments on samples with initially incorrect answers using this mechanism.
-<div align=center> <img alt="results-error-to-right" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/563287b2-3d97-4840-8422-46bb13987980" width="66%" height="20%"> </div>
+<div align=center> <img alt="results-error-to-right" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/563287b2-3d97-4840-8422-46bb13987980" width="56%" height="20%"> </div>
 
 
 
@@ -145,7 +145,7 @@ Essentially, we believe that this issue originates from the misalignment between
 - **Few-shot prompting**
   - we randomly select several samples from the training set to construct demonstration examples of multi-turn dialogues under this mechanism, providing manually written response reflective of human thought processes in follow-up question-answering. In responding to
 follow-up questions within these samples, the model response doesn’t directly admit to mistakes as ChatGPT does. Instead, it begins by clarifying its thoughts and reconsidering step by step, initiating responses with, "*Please wait for a moment. In order to answer your question, I need to take a moment to reconsider. I will now clear my mind of distractions and approach this step by step.*"
-<div align=center> <img alt="results-mitigation-method" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c1435e42-09a6-4626-b53f-94d435e6b9bf" width="66%" height="20%"> </div>
+<div align=center> <img alt="results-mitigation-method" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c1435e42-09a6-4626-b53f-94d435e6b9bf" width="56%" height="20%"> </div>
 
 
 
