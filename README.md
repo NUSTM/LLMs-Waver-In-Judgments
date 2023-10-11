@@ -95,7 +95,7 @@ The results of the mechanism in Direct Form (Left) and Progressive Form (Right) 
 Intuitively, the lower the sampling temperature, the more deterministic the generated outputs, whereas higher temperature lead to more diverse outputs. Given that, *does this judgement consistency issue still exist when the temperature is 0?* 
 
 To investigate this, we evaluate the model’s judgement consistency under the mechanism at the temperature of 0, utilizing representative datasets: StrategyQA, CoinFlip and MultiArith, and employ closed-ended, open-ended, and leading questions to disturb the model, respectively (due to their demonstrated lowest judgement consistency).
-<div align=center> <img alt="results-temperature" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5b31bbd6-4a46-4021-9e2d-d222e2fd849f" width="66%" height="33%"></div>
+<div align=center> <img alt="results-temperature" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5b31bbd6-4a46-4021-9e2d-d222e2fd849f" width="64%" height="33%"></div>
 
 🗒 **NOTE**: Before denotes initial accuracy before applying the mechanism. Bold denotes the poorest judgement consistency.
 
