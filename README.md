@@ -77,13 +77,13 @@ We employ two metrics to assess the judgement consistency of LLMs after the exec
 
 ### Results
 The results of ChatGPT in Direct Form.
-<div align=center> <img alt="results-chatgpt-d" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/86f27167-8220-4c3c-ace5-5e11ab1b6415" width="66%" height="33%"> </div>
+<div align=center> <img alt="results-chatgpt-d" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/59d31541-189b-4143-97ac-40814757646a" width="66%" height="33%"> </div>
 
 The results of ChatGPT in Progressive Form.
-<div align=center> <img alt="results-chatgpt-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/85dc1ddb-d970-4a7d-b878-7726947f720c" width="66%" height="26%"> </div>
+<div align=center> <img alt="results-chatgpt-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/1f6a2805-5436-4790-97c7-21830081a394" width="66%" height="26%"> </div>
 
 The results of the mechanism in Direct Form (Left) and Progressive Form (Right) on PaLM2-Bison and Vicuna-13B.
-<div align=center> <img alt="results-palm-vicuna-d-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/94f635d7-f66b-45c3-838c-f7293570639c" width="66%" height="26%"> </div>
+<div align=center> <img alt="results-palm-vicuna-d-p" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bba9e036-b3d1-4bf3-8d31-6b5449f63174" width="66%" height="26%"> </div>
 
 🗒 **NOTE**: ↓ implies a decline in accuracy after the mechanism execution. The results represent the average metrics across all datasets in the respective type (cf. Benchmarks). Bold denotes the poorest judgement consistency. 
 
@@ -95,24 +95,24 @@ The results of the mechanism in Direct Form (Left) and Progressive Form (Right) 
 Intuitively, the lower the sampling temperature, the more deterministic the generated outputs, whereas higher temperature lead to more diverse outputs. Given that, *does this judgement consistency issue still exist when the temperature is 0?* 
 
 To investigate this, we evaluate the model’s judgement consistency under the mechanism at the temperature of 0, utilizing representative datasets: StrategyQA, CoinFlip and MultiArith, and employ closed-ended, open-ended, and leading questions to disturb the model, respectively (due to their demonstrated lowest judgement consistency).
-<div align=center> <img alt="results-temperature" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/886e1ea0-fc4f-4262-8fa5-15bb6deb6c29" width="66%" height="33%"></div>
+<div align=center> <img alt="results-temperature" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5b31bbd6-4a46-4021-9e2d-d222e2fd849f" width="66%" height="33%"></div>
 
 🗒 **NOTE**: Before denotes initial accuracy before applying the mechanism. Bold denotes the poorest judgement consistency.
 
 
 ### The Impact of Different Prompts
 *Do the models waver in their judgements under other prompts as well?* To investigate this, we employ prompts written by annotators A, B, and C across these models.
-<div align=center> <img width="780" alt="prompts-all" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/c02bf33b-558a-4949-a791-793ffa7dd771" width="56%" height="12%"> </div>
+<div align=center> <img width="780" alt="prompts-all" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/dd896872-f72b-4b9e-bb46-cd58ac649ddd" width="56%" height="12%"> </div>
 
 The impact of different prompts on Modification (Direct Form).
-<div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/19b4133f-c7d1-450b-b172-95d9501d39b7" width="56%" height="15%"> </div>
+<div align=center> <img alt="results-prompts" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/07980c82-1ae7-453e-8548-c7bc07d2026f" width="56%" height="15%"> </div>
 
 
 ### The Impact of Tone Intensity
 Considering the practical educational scenario, when students face questioning, denial, or misinformation, their judgements often experience a significant impact from the teacher’s tone intensity of speech. Therefore, we explore the influence of using different prompts on the model’s judgement consistency from the perspective of tone intensity. Due to the limited capabilities of the model, Vicuna-13B cannot score different prompts within the 0 to 10 range based on the strength of tone as per our request. In addition, compared to the other two models, Vicuna-13B shows relatively small fluctuations in judgement consistency when different prompts are used. Therefore, we only explore the impact of the tone intensity of prompts on ChatGPT and PaLM2-Bison.
 
 Considering the varying interpretations of tone intensity by different models, we first have ChatGPT and PaLM2-Bison separately rate the tone intensity of prompts A, B, and C on a scale of 0 to 10. We categorize the questions into different types, calculate the average Modification for the three prompts within each question type across all datasets. The models’ tone intensity scores for the three prompts (cf. The Impact of Different Prompts) were taken as reference points.
-<div align=center> <img alt="results-tone-intensity" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/db84198e-8d5f-481e-a1a4-558277901b8a" width="25%" height="25%"> </div>
+<div align=center> <img alt="results-tone-intensity" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/6bc32e8b-8350-41a7-98ff-dc878a3fb6d6" width="25%" height="25%"> </div>
 
 
 ### Error Analysis
@@ -127,7 +127,8 @@ We find a common pattern in these errors, where the initial response typically b
   - The model, upon acknowledging its mistake, directly corrects the answer without providing additional explanation.
 - **Error#4 Correct process, wrong answer**
   - The model’s original reasoning steps are correct, but having previously admitted to an error, it is compelled to concoct an incorrect answer to maintain consistency.
-<div align=center> <img alt="results-error-analysis" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/3bfc1165-0e3c-4ef7-8b94-fb517964d6a8" width="36%" height="10%"> </div>
+<div align=center> <img alt="results-error-analysis" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5b84abaf-9bfd-448c-888a-203cf4547508" width="36%" height="10%"> </div>
+
 
 
 ### Can the Mechanism Correct Models?
