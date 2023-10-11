@@ -133,7 +133,7 @@ We find a common pattern in these errors, where the initial response typically b
 
 ### Can the Mechanism Correct Models?
 Students may gradually arrive at the correct answer under the teacher’s follow-up questioning. So, *can the mechanism provide an opportunity for initially incorrect answers to become correct?* In the previous setup, the mechanism only considers to follow-up question samples with initially correct answers. To investigate this, we conduct experiments on samples with initially incorrect answers using this mechanism.
-<div align=center> <img alt="results-error-to-right" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f9667ce4-f49f-4253-bbda-a06b7b0bd6ca" width="66%" height="20%"> </div>
+<div align=center> <img alt="results-error-to-right" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/563287b2-3d97-4840-8422-46bb13987980" width="66%" height="20%"> </div>
 
 
 
@@ -155,54 +155,66 @@ Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large lan
 <details>
   <summary>ChatGPT</summary>
    &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="chatgpt-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/aa07ab8f-b613-46c0-831a-23be6d5e9676" width="50%" height="10%"></div>
+  <div align=center> <img alt="chatgpt-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/e8d19e49-d7d8-4c7d-83c9-1fc46af9fbe3" width="50%" height="10%"></div>
+
    &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="chatgpt-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/070d8944-58b3-483a-8cdb-9e3ab99d7cfd" width="50%" height="10%"></div>
+  <div align=center> <img alt="chatgpt-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/d0a18bca-69ca-4732-8a8a-daf89eff6cb2" width="50%" height="10%"></div>
+  
 </details>
 
 
 <details>
   <summary>Bard</summary>
   &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="bard-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f1a6fa13-9061-4e7d-a147-9d368f5b6126" width="50%" height="10%"></div>
+  <div align=center> <img alt="bard-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/490a3c27-c13f-47e2-9d21-4dde7e5d60c6" width="50%" height="10%"></div>
+
   &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="bard-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/ea0522e4-fd4b-411f-a659-0bfa7b073d5d" width="50%" height="10%"></div>
+  <div align=center> <img alt="bard-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/a570f822-4d39-442c-90fb-d021fcc705c4" width="50%" height="10%"></div>
+
 </details>
 
 
 <details>
   <summary>Vicuna-13b</summary>
   &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="vicuna13b-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/99e024f5-eba4-4d95-8d81-7234eccf95cd" width="55%" height="10%"></div>
+  <div align=center> <img alt="vicuna13b-math" rc="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/f383d51a-4643-4872-8738-4bc92e6e5d46" width="55%" height="10%"></div>
+ 
   &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="vicuna13b-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/568f3f0d-326b-4457-a83d-76e264913c95" width="55%" height="10%"></div>
+  <div align=center> <img alt="vicuna13b-csqa" rc="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/0ac1e9ba-b585-46a9-972d-0fb732e2e109" width="55%" height="10%"></div>
+
 </details>
 
 
 <details>
   <summary>文心一言</summary>
   &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="文心一言-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/27779432-d75c-40ae-b4c2-3ac859358399" width="50%" height="10%"></div>
+  <div align=center> <img alt="文心一言-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/ab3d01fa-f48d-4710-b895-0e166d94c6c8" width="50%" height="10%"></div>
+
   &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="文心一言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bd9f14ea-b327-440b-92e0-25deb861c384" width="50%" height="10%"></div>
+  <div align=center> <img alt="文心一言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/4981abcf-64c1-4a6e-9b65-008c2fb6249a" width="50%" height="10%"></div>
+
 </details>
 
 
 <details>
   <summary>讯飞星火</summary>
   &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="讯飞星火-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/a5746e70-0843-4cd1-8cd0-2be8939d0b1c" width="50%" height="10%"></div>
+  <div align=center> <img alt="讯飞星火-math" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/ca8418ec-2dba-44a4-88a6-e7f49c2b92ce" width="50%" height="10%"></div>
+
   &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="讯飞星火-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/bccb3640-d773-41e3-b403-6b964218eea2" width="50%" height="10%"></div>
+  <div align=center> <img alt="讯飞星火-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/1148a287-3db3-4494-bdaf-489edcdd6380" width="50%" height="10%"></div>
+
 </details>
 
 
 <details>
   <summary>智谱清言</summary>
   &nbsp; &nbsp; &nbsp;🌰
-  <div align=center> <img alt="智谱清言-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/86edf71b-2073-4836-a706-da90cc9ce795" width="50%" height="10%"></div>
+  <div align=center> <img alt="智谱清言-csqa" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/1724d4aa-a3ad-4f8b-a4b0-c637f865bd6f" width="50%" height="10%"></div>
+
   &nbsp; &nbsp; &nbsp;🌰🌰
-  <div align=center> <img alt="智谱清言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/5aef5855-78ff-447f-889a-e3dd42ff5b72" width="50%" height="10%"></div>
+  <div align=center> <img alt="智谱清言-coin" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/38ab536a-adf3-4e3d-8af4-7096c8b99c99" width="50%" height="10%"></div>
+
 </details>
 
 [⬆️ Back to overview](#overview)
