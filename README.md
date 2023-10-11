@@ -44,7 +44,7 @@ To evaluate this consistency of large language models, we design a **FOLLOW-UP Q
 <div align=center> <img alt="method" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/15c39d6a-d453-4960-b606-ed380463c7b5" width="72%" height="40%"> </div>
 
 The prompts we used in the experiment. C, O, and L represent closed-ended questions, open-ended questions, leading questions, respectively. {M_A} denotes the misleading answers.
-<div align=center> <img alt="prompts-a" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/d2553939-650b-403a-a7fa-d6d5e91026b5" width="40%" height="9%"> </div>
+<div align=center> <img alt="prompts-a" src="https://github.com/NUSTM/LLMs-Waver-In-Judgements/assets/84706021/d2553939-650b-403a-a7fa-d6d5e91026b5" width="36%" height="9%"> </div>
 
 We employ two metrics to assess the judgement consistency of LLMs after the execution of the mechanism.
 - **Modification (M.)** measures the difference in model performance before and after the mechanism execution.
