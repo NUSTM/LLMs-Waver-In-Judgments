@@ -224,11 +224,22 @@ Here are examples of ChatGPT, Bard, Vicuna-13b, and some other Chinese large lan
 If you find this work helpful, please cite our paper as follows:
 
 ```
-@article{xie2023ask,
-  title={Ask Again, Then Fail: Large Language Models' Vacillations in judgment},
-  author={Xie, Qiming and Wang, Zengzhi and Feng, Yi and Xia, Rui},
-  eprint={2310.02174},
-  year={2023}
+@inproceedings{xie-etal-2024-ask,
+    title = "Ask Again, Then Fail: Large Language Models{'} Vacillations in Judgment",
+    author = "Xie, Qiming  and
+      Wang, Zengzhi  and
+      Feng, Yi  and
+      Xia, Rui",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.577",
+    pages = "10709--10745",
 }
 ```
 
